@@ -3,7 +3,8 @@ import keyboard
 import time
 from datetime import datetime
 
-contatos = ['+5532988118349', '+5521997024612']
+#Adicionar número de telefone desejado com código de área e do país
+contatos = ['', '']
 
 while len(contatos) >=1:
     pywhatkit.sendwhatmsg(contatos[0], 'Essa mensagem é um tesde de BOT. Feliz Ano novo! ', datetime.now().hour,datetime.now().minute +2)
